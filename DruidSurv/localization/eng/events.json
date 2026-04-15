@@ -1,0 +1,16 @@
+﻿{
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-DRUID_SURV_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] Druid {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-DRUID_SURV_CARD_POOL.title": "Brown",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-DRUIDSURV_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] Druid {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-DRUIDSURV_CARD_POOL.title": "Verdant",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-WIZARD_SURV_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] Mage {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-WIZARD_SURV_CARD_POOL.title": "Crimson",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-CROW_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] Chosen {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-CROW_CARD_POOL.title": "Cerulean",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-STRIKER_CARD_POOL.description": "Obtain [gold]{Cards}[/blue] Striker {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-STRIKER_CARD_POOL.title": "Olive",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-ADORA_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] High Priestess {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-ADORA_CARD_POOL.title": "Amber",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-EZILI_CARD_POOL.description": "Obtain [blue]{Cards}[/blue] Ezili {Cards:plural:card|cards}.",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.CARD_POOL∴DRUIDSURV-EZILI_CARD_POOL.title": "Violet"
+}

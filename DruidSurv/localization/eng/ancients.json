@@ -1,0 +1,13 @@
+{
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.0-0r.next": "Continue",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.0-0r.char": "I sense a calm before the storm...",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.0-1r.ancient": "Ah, the Watcher arrives. Focused, but restless.",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.0-attack": "Both",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-0r.next": "Continue",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-0r.char": "[sine]I am ready for what comes.[/sine]",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-1r.ancient": "[jitter]Good. Then let the trial begin.[/jitter]",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-1r.next": "Continue",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-2r.char": "[sine]I will not falter.[/sine]",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-2r.next": "Continue",
+  "THE_ARCHITECT.talk.DRUIDSURV-DRUID_SURV.1-3r.ancient": "[jitter]We shall see…[/jitter]"
+}

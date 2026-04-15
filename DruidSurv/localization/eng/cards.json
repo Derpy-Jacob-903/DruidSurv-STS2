@@ -1,0 +1,18 @@
+{
+  "DRUIDSURV-HUNTRESS.title": "Huntress Monkey",
+  "DRUIDSURV-HUNTRESS.description": "Deal {Damage:diff()} damage.\nNext turn, draw 1 card.",
+  "DRUIDSURV-WHITE_BLOON.title": "White Bloon",
+  "DRUIDSURV-WHITE_BLOON.description": "Gain {Block:diff()} [gold]Block[/gold]. Draw 1 card. Gain 1 [pink]Mana[/pink].",
+  "DRUIDSURV-BLOONSDAY_DEVICE.title": "Bloonsday Device",
+  "DRUIDSURV-BLOONSDAY_DEVICE.description": "Deal {Damage:diff()} damage and apply {Poison:diff()} [gold]Poison[/gold] to ALL enemies and [red]yourself[/red].",
+  "DRUIDSURV-DEFEND_DRUID.title": "Defend",
+  "DRUIDSURV-DEFEND_DRUID.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "DRUIDSURV-STRIKE_DRUID.title": "Strike",
+  "DRUIDSURV-STRIKE_DRUID.description": "Deal {Damage:diff()} damage.",
+  "DRUIDSURV-DEFEND_THE_BREACH.title": "Defend the Breach!",
+  "DRUIDSURV-DEFEND_THE_BREACH.description": "Gain 2 Strength until the start of your next turn.\n[gold]If you have 0 {energyPrefix:energyIcons(1)}[/gold], this bonus is permanent.",
+  "DRUIDSURV-DEFENDER.title": "Defender",
+  "DRUIDSURV-DEFENDER.description": "Gain 5 Block. Gain 5 [gold]Defender[/gold]. [gold]Reload[/gold].",
+  "DRUIDSURV-HEART_OF_THUNDER.title": "Heart of Thunder",
+  "DRUIDSURV-HEART_OF_THUNDER.description": "Deal 6 damage to ALL enemies.\nChannel 1 [gold]Lightning.[/gold]"
+}
