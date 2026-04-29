@@ -16,8 +16,8 @@ public class Defender() : DruidSurvCard(2,
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new BlockVar(6m, ValueProp.Move),
-        new DynamicVar("Defender", 6m)
+        new BlockVar(8m, ValueProp.Move),
+        new DynamicVar("Defender", 8m)
     ];
     protected override async Task OnPlay(
         PlayerChoiceContext context,

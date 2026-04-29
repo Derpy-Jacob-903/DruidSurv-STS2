@@ -18,8 +18,8 @@ public class WhiteBloon() : DruidSurvCard(1,
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new BlockVar(9m, ValueProp.Move),
-            new CardsVar(1),
-            new StarsVar(1)
+        new CardsVar(1),
+        new StarsVar(1)
     ];
     protected override async Task OnPlay(
         PlayerChoiceContext context,
@@ -27,6 +27,10 @@ public class WhiteBloon() : DruidSurvCard(1,
     {
         await CreatureCmd.GainBlock(Owner.Creature, base.DynamicVars.Block, play);
         await PowerCmd.Apply<DrawCardsNextTurnPower>(Owner.Creature, DynamicVars.Cards.BaseValue, Owner.Creature, play.Card);
+        if (Owner.PlayerCombatState != null && Owner.PlayerCombatState.Stars < 6)
+        {
+            await PlayerCmd.GainStars(Math.Max(6 - Owner.PlayerCombatState.Stars, 1), Owner);
+        }
     }
 
     public override Material CreateCustomFrameMaterial => ShaderUtils.GenerateHsv(207.88f / 360f, .7f, .9f);

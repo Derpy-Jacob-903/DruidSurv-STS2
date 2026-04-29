@@ -10,14 +10,14 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace DruidSurv.DruidSurvCode.Cards.TrashHeap;
 
 public class DefendDruid() : DruidSurvCard(1,
-    CardType.Attack, CardRarity.Basic,
+    CardType.Skill, CardRarity.Basic,
     TargetType.Self, "Defend")
 {
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new BlockVar(9m, ValueProp.Move)
+        new BlockVar(5m, ValueProp.Move)
     ];
     protected override async Task OnPlay(
         PlayerChoiceContext context,

@@ -4,6 +4,7 @@ using DruidSurv.DruidSurvCode.Cards.Grover.Rare;
 using DruidSurv.DruidSurvCode.Cards.Grover.Starter;
 using DruidSurv.DruidSurvCode.Cards.TrashHeap;
 using DruidSurv.DruidSurvCode.Extensions;
+using DruidSurv.DruidSurvCode.Relics;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
@@ -15,6 +16,8 @@ namespace DruidSurv.DruidSurvCode.Character;
 public class DruidSurv : PlaceholderCharacterModel
 {
     public const string CharacterId = "DruidSurv";
+
+    public override string PlaceholderID => "silent";
 
     public static readonly Color Color = new("974d2c");
 
@@ -38,7 +41,7 @@ public class DruidSurv : PlaceholderCharacterModel
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<DruidStarter>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<DruidSurvCardPool>();
@@ -49,8 +52,8 @@ public class DruidSurv : PlaceholderCharacterModel
         override all the other methods that define those assets.
         These are just some of the simplest assets, given some placeholders to differentiate your character with.
         You don't have to, but you're suggested to rename these images. */
-    public override string CustomIconTexturePath => "character_icon_char_name.png".CharacterUiPath();
-    public override string CustomCharacterSelectIconPath => "char_select_char_name.png".CharacterUiPath();
-    public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
-    public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
+    public override string CustomIconTexturePath => "character_icon_grover.png".CharacterUiPath();
+    public override string CustomCharacterSelectIconPath => "char_select_grover.png".CharacterUiPath();
+    public override string CustomCharacterSelectLockedIconPath => "char_select_grover_locked.png".CharacterUiPath();
+    public override string CustomMapMarkerPath => "map_marker_grover.png".CharacterUiPath();
 }

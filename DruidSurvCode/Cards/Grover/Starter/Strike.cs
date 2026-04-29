@@ -26,10 +26,11 @@ public class StrikeDruid() : DruidSurvCard(1,
         PlayerChoiceContext context,
         CardPlay play)
     {
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
-            .FromCard(this).Targeting(play.Target)
-            .WithHitFx("vfx/vfx_attack_slash", null, "blunt_attack.mp3")
-            .Execute(context);
+        if (play.Target != null)
+            await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
+                .FromCard(this).Targeting(play.Target)
+                .WithHitFx("vfx/vfx_attack_slash", null, "blunt_attack.mp3")
+                .Execute(context);
     }
 
     protected override void OnUpgrade() => this.DynamicVars.Damage.UpgradeValueBy(3M);
